@@ -14,6 +14,13 @@ page 50101 "CSD Seminar Card"
                 field("no."; "no.")
                 {
                     ApplicationArea = All;
+                    AssistEdit = true;
+                    trigger OnAssistEdit()
+                    begin
+                        if AssistEdit() then
+                            CurrPage.Update;
+
+                    end;
                 }
                 field(Name; Name)
                 {
@@ -62,22 +69,35 @@ page 50101 "CSD Seminar Card"
         }
         area(FactBoxes)
         {
+            systempart("Links"; Links)
+            {
 
+            }
+            systempart("Notes"; Notes)
+            {
+
+            }
         }
     }
 
     actions
     {
-        area(Processing)
+        area(Navigation)
         {
-            action(ActionName)
+            group("&Seminar")
             {
-                ApplicationArea = All;
+                action("Co&mment")
+                {
 
-                trigger OnAction()
-                begin
-
-                end;
+                    //RunObject=page "CSD Seminar Comment Sheet";
+                    //RunPageLink = "Table Name"= const(Seminar),
+                    // "No."=field("No.");
+                    
+                    Image = Comment;
+                    Promoted = true;
+                    PromotedIsBig = true;
+                    PromotedOnly = true;
+                }
             }
         }
     }

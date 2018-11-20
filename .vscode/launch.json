@@ -8,10 +8,10 @@
             "server": "http://localhost",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            //"startupObjectId": 22,
-            //"startupObjectType": "Page",
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
             "breakOnError": true,
-            "schemaUpdateMode": "Recreate"
+            "schemaUpdateMode": "Recreate" // data always deleted.
         }
     ]
 }
