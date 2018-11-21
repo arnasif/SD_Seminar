@@ -11,7 +11,8 @@
             "startupObjectId": 50100,
             "startupObjectType": "Page",
             "breakOnError": true,
-            "schemaUpdateMode": "Recreate" // data always deleted.
+            // "schemaUpdateMode": "Recreate" // data always deleted.
+            "schemaUpdateMode": "Synchronize"
         }
     ]
 }
