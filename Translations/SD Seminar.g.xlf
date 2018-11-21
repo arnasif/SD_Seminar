@@ -293,6 +293,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Reg. Header - Field Posting No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3775708622 - Field 2682724073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Printed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Seminar Reg. Header - Field No. Printed - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3775708622 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot delete the Seminar Registration, because there is at least one %1 where %2=%3.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1298,6 +1303,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Registration - Action &amp;Charges - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3811004094 - Action 1344672713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Seminar Registration - Action &amp;Print - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3811004094 - Action 1129919258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Post</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1407,6 +1417,16 @@
           <source>Posted Seminar Charges</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Posted Seminar Charges - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 206864090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Reg.- Participant List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD SeminarRegParticipantList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 206864090 - ReportLabel 300997005" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD SeminarRegParticipantList - ReportLabel SeminarRegistrationHeaderCap</note>
         </trans-unit>
         <trans-unit id="PageExtension 3747827805 - Control 2205917413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Room</source>

@@ -138,7 +138,7 @@ page 50110 "CSD Seminar Registration"
                     Image = Comment;
                     RunObject = Page 50106;
                     RunPageLink = "No." = Field ("No.");
-                    RunPageView = where ("Table Name" = const("Seminar Registration"));
+                    RunPageView = where ("Table Name" = const ("Seminar Registration"));
                 }
                 action("&Charges")
                 {
@@ -147,6 +147,23 @@ page 50110 "CSD Seminar Registration"
                     RunObject = Page 50124;
                     RunPageLink = "Document No." = Field ("No.");
                 }
+            }
+            action("&Print")
+            {
+                Caption = '&Print';
+                Image = Print;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Process;
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                // SeminarReportSelection : Record "csd seminar report selections"; 
+                begin
+                    // SeminarReportSelection.PrintReportSelection(SeminarReportSelection.Usage::Registration, Rec);
+
+                end;
             }
         }
         area(Processing)
